@@ -129,7 +129,7 @@ if tombol:
     else:
         with st.spinner("AI sedang menyusun strategi belajar terbaik..."):
             try:
-                model = genai.GenerativeModel("gemini-2.0-flash")
+                model = genai.GenerativeModel("gemini-2.5-flash")
 
                 prompt = f"""
 Kamu adalah Guru Pendamping Belajar AI untuk murid SMP.
